@@ -1,7 +1,7 @@
-##LiveDemo##
+## LiveDemo ##
 https://arcav.netlify.app/
 
-##Ejemplo Basico de Implementacion de React-Bootstrap##
+## Ejemplo Basico de Implementacion de React-Bootstrap ##
 Creacion de un Layout Utilizando React-Bootstrap 
 
 
