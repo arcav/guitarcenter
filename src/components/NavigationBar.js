@@ -17,27 +17,20 @@ const Styles = styled.div`
   background-color: white;
 }  
 
-.nav-item{
-  color:yellow
-}
-a,
 .navbar-brand,
 .navbar-nav 
-.nav-link 
+ .nav-link 
 {
   color: white;
   
-  &:hover {
+  &:hover,:focus {
     color: yellow;
   };
-  &:focus{
-    color: yellow
-    };
-    
-}
+  
+  
+
+  }
 `
-
-
 
 
 
@@ -54,9 +47,9 @@ export const NavigationBar = () => (
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="ml-auto">
-          <Nav.Item><Nav.Link  exact={true} as={NavLink} to="/" ><h6>Home</h6></Nav.Link></Nav.Item>
-          <Nav.Item><Nav.Link as={NavLink} to="/About"><h6>About</h6></Nav.Link></Nav.Item>
-          <Nav.Item><Nav.Link as={NavLink} to="/Contact"><h6>Contact</h6></Nav.Link></Nav.Item>
+          <Nav.Item><Nav.Link exact={true} as={NavLink} to="/"activeClassName="deactived" ><h6>Home</h6></Nav.Link></Nav.Item>
+          <Nav.Item><Nav.Link   as={NavLink} to="/About" activeClassName="deactived"><h6>About</h6></Nav.Link></Nav.Item>
+          <Nav.Item><Nav.Link as={NavLink} to="/Contact" activeClassName="deactived"><h6>Contact</h6></Nav.Link></Nav.Item>
         </Nav>
       </Navbar.Collapse>
     </Navbar>
