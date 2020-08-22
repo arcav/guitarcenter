@@ -5,7 +5,7 @@ import styled from 'styled-components';
 
 const Styles = styled.div`
   .container{
-  background-color:# 222;
+
   }
 
 `;
