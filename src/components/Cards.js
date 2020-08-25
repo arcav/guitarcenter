@@ -1,15 +1,12 @@
 import React from 'react'
-
 //Componentes de Bootstrap4
 import {Card, Button} from 'react-bootstrap';
-
 //Imagen de Card
 import imgg from '../images/imgg.jpg';
-
 //Variable de Cards con arrow function
 export default function Cards() {
     return (
-        <div>
+        <>
         <Card style={{ width: '18rem' }}>
             <Card.Img variant="top" src= {imgg} />
                 <Card.Body>
@@ -18,7 +15,7 @@ export default function Cards() {
                     <Button href="Catalogue"variant="dark">Catalogue</Button>
                 </Card.Body>
          </Card>
-                        </div>
+         </>
                     )
                 }
 
