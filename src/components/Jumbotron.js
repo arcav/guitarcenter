@@ -1,17 +1,12 @@
 import React from 'react';
-
 //Componentes de Bootstrap4
 import {Jumbotron as Jumbo, Container} from 'react-bootstrap';
-
 //Styled Component
 import styled from 'styled-components';
-
 //Imagen de Jumbotron
 import imgg from '../images/imgg.jpg';
 
-
 //Variable que representa objeto js para Styled Component
-
 const Styles = styled.div`
     .jumbo {
         background: url(${imgg}) no-repeat fixed bottom;
@@ -21,7 +16,6 @@ const Styles = styled.div`
         position: relative;
         z-index:-2;
     }
-
     .overlay {
         background-color: #000;
         opacity: 0.6;
@@ -32,8 +26,7 @@ const Styles = styled.div`
         right: 0;
         z-index: -1;
     }
-`;
-
+`
   
 //Variable de jumbotron con arrow function
 export const Jumbotron = () => (

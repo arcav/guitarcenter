@@ -27,22 +27,14 @@ const Styles = styled.div`
     color: yellow;
   };
   
-  
+}
 
-  }
-`
-
-
-
-
-
-//Variable de NavigationBar con arrow function
+`//Variable de NavigationBar con arrow function
 
 export const NavigationBar = () => (
 
   //Objeto Styles de Styled
   <Styles>
-
     <Navbar expand="lg" className="fixed">
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
