@@ -12,7 +12,7 @@ const Styles = styled.div`
         background: url(${imgg}) no-repeat fixed bottom;
         background-size: cover;
         color: #efefef;
-        height:200px;
+        height:450px;
         position: relative;
         z-index:-2;
     }

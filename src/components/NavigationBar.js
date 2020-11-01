@@ -35,9 +35,9 @@ export const NavigationBar = () => (
 
   //Objeto Styles de Styled
   <Styles>
-    <Navbar expand="lg" className="fixed">
+    <Navbar fixed="top" expand="lg" className="fixed">
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
-      <Navbar.Collapse id="basic-navbar-nav">
+      <Navbar.Collapse id="basic-navbar-nav" >
         <Nav className="ml-auto">
           <Nav.Item><Nav.Link exact={true} as={NavLink} to="/"activeClassName="deactived" ><h6>Home</h6></Nav.Link></Nav.Item>
           <Nav.Item><Nav.Link   as={NavLink} to="/About" activeClassName="deactived"><h6>About</h6></Nav.Link></Nav.Item>
