@@ -1,0 +1,29 @@
+body::-webkit-scrollbar {
+    width: 1em;
+    background-color:#222
+  }
+   
+  body::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    border-radius: 20px;
+    background-color: #222;
+    border: 0.2px solid whitesmoke
+  }
+   
+  body::-webkit-scrollbar-thumb {
+    background-color: #222;    /* color of the scroll thumb */
+    border-radius: 20px;       /* roundness of the scroll thumb */
+    border: 0.1px solid yellow;
+   
+  }
+   
+ 
+;
+
+/* overflow-x: hidden; 
+color:black; 
+font-family:'Opens Sans',helvetica;
+height:100%; 
+width:101%; 
+margin: 0px; 
+padding: 0px;   */

@@ -1,22 +1,17 @@
 import React from 'react';
-import {Container} from 'react-bootstrap';
-import styled from 'styled-components';
+import { Container } from 'react-bootstrap';
 
 
-const Styles = styled.div`
-  .container{
 
-  }
 
-`;
 
 
 export const Layout = (props) => (
-   <Styles> 
-        <Container>
-        {props.children}
-    </Container>
-   </Styles>
+  <Container>
+
+      {props.children}
   
-    
+  </Container>
+
+
 );

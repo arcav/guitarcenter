@@ -14,7 +14,10 @@ const Styles = styled.div`
   background-color: #222;
 }
   .navbar-toggler{
-  background-color: white;
+  background-color: whitesmoke;
+  border: solid 2px yellow;
+  
+  
 }  
 
 .navbar-brand,
@@ -39,9 +42,20 @@ export const NavigationBar = () => (
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav" >
         <Nav className="ml-auto">
-          <Nav.Item><Nav.Link exact={true} as={NavLink} to="/"activeClassName="deactived" ><h6>Home</h6></Nav.Link></Nav.Item>
-          <Nav.Item><Nav.Link   as={NavLink} to="/About" activeClassName="deactived"><h6>About</h6></Nav.Link></Nav.Item>
-          <Nav.Item><Nav.Link as={NavLink} to="/Contact" activeClassName="deactived"><h6>Contact</h6></Nav.Link></Nav.Item>
+          <Nav.Item>
+            <Nav.Link exact={true} as={NavLink} to="/" activeClassName="deactived" >
+              <h6>Home</h6>
+            </Nav.Link>
+          </Nav.Item>
+          <Nav.Item>
+            <Nav.Link as={NavLink} to="/About" activeClassName="deactived">
+              <h6>About</h6>
+            </Nav.Link>
+          </Nav.Item>
+          <Nav.Item><Nav.Link as={NavLink} to="/Contact" activeClassName="deactived">
+            <h6>Contact</h6>
+          </Nav.Link>
+          </Nav.Item>
         </Nav>
       </Navbar.Collapse>
     </Navbar>

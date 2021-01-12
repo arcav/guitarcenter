@@ -15,16 +15,24 @@ const Styles = styled.div`
         height:450px;
         position: relative;
         z-index:-2;
-    }
+    };
+    
     .overlay {
         background-color: #000;
-        opacity: 0.6;
+        opacity: 0.5;
         position: absolute;
         top: 0;
         left:0;
         bottom: 0;
         right: 0;
         z-index: -1;
+    };
+    h1{
+        text-align:center
+        
+    };
+    p{
+        text-align:center
     }
 `
   
@@ -33,9 +41,9 @@ export const Jumbotron = () => (
    //Objeto Styles de Styled
    <Styles>
         <Jumbo fluid className="jumbo">
-            <div className="overlay"></div>
+            <div className="overlay"/>
             <Container>
-                <h1><b>GUITAR ON-LINE</b></h1>
+                <h1>GUITAR ON-LINE</h1>
                 <p>The Best Guitars For You</p>
             </Container>
         </Jumbo>

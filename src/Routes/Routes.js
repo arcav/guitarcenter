@@ -5,17 +5,19 @@ import { Contact } from '../views/Contact';
 import { About } from '../views/About';
 import { NoMatch } from '../views/NoMatch';
 
+
 const Routes = () => {
     return (
         <>
             <Switch>
                 <Route exact path="/" component={Home} />
-                <Route exact path="/About" component={About} />
-                <Route exact path="/Contact" component={Contact} />
-                <Route exact path="/Nomatch" component={NoMatch} />
+                <Route path="/About" component={About} />
+                <Route path="/Contact" component={Contact} />
+                <Route path="/Nomatch" component={NoMatch} />
             </Switch>
         </>
     );
 };
 
 export default Routes
+ 
