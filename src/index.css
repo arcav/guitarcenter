@@ -2,6 +2,25 @@
 @tailwind components;
 @tailwind utilities;
 
+
+
+
+@layer base {
+
+  img {
+    width: 100%;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  .section {
+    @apply container mx-auto py-[6rem] min-h-screen px-6
+  }
+}
+
+
 /* 
 
 body::-webkit-scrollbar {
@@ -23,7 +42,7 @@ body::-webkit-scrollbar {
    
   }
    
- */ 
+ */
 
 
 /* overflow-x: hidden; 
